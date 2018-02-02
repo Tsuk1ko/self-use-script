@@ -1,5 +1,6 @@
 #!/bin/sh
 echo "88.99.142.163 minergate.com" >> /etc/hosts
+echo "176.9.8.174 download.minergate.com" >> /etc/hosts
 echo "94.130.48.154 xmr.pool.minergate.com" >> /etc/hosts
 echo "78.46.23.253 xmr.pool.minergate.com" >> /etc/hosts
 echo "136.243.88.145 xmr.pool.minergate.com" >> /etc/hosts
@@ -13,3 +14,4 @@ echo "136.243.94.27 xmr.pool.minergate.com" >> /etc/hosts
 echo "176.9.47.243 xmr.pool.minergate.com" >> /etc/hosts
 wget -O minergate.deb https://minergate.com/download/deb-cli
 dpkg -i minergate.deb
+apt-get install -y screen
